@@ -62,10 +62,15 @@ This is a boilerplate for emails including templates, snippets of code, images, 
 # Common Git Commands
 
 **git status** Frequently use this command to show the working tree status
+
 **git fetch** Download objects and refs from another repository. Use this command first if you are trying to get the status of the remote compared to your local branch.
+
 **git pull** Incorporates changes from a remote repository into the current branch.
-**git add** This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit. 
+
+**git add** This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+ 
 **git commit** Stores the current contents of the index in a new commit along with a log message from the user describing the changes.
+
 **git push** Update remote refs along with associated objects
 
 # Gulp Tasks
