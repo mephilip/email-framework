@@ -1,8 +1,8 @@
 # USAA EMAIL FRAMEWORK v1.0.0
 
-This is a boilerplate for USAA emails including templates, snippets of code, images, a css framework, and an environment for email development that allows a developer to:
+This is a boilerplate for emails including templates, snippets of code, images, a css framework, and an environment for email development that allows a developer to:
 
-1. Start from either a "MemberTemplate" or "NonMemberTemplate"
+1. Ability to start with a boilerplate.html located in the dev folder
 2. Find and replace invalid characters in the text doc
 3. Inline CSS
 4. Deploy images to our Rackspace server (used in conjuncture with sending tests to Litmus)
@@ -26,7 +26,6 @@ This is a boilerplate for USAA emails including templates, snippets of code, ima
 			- `_r-standards.scss` This file contains responsive styles like alignment and other things not grid related
 			- `_r-grid.scss` This file container responsive styles pertaining the the grid
 		- **partials**
-			- `_usaa-divider.scss` the gold and blue USAA divider right before the footer
 			- `_super-header.scss` the styles for the pretext and view in web link
 			- `_header.scss` styles for the header with the logo and security zone
 			- `_footer.scss` styles for the footer
