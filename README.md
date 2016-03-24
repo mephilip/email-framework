@@ -1,4 +1,4 @@
-# USAA EMAIL FRAMEWORK v1.0.0
+# EMAIL FRAMEWORK v1.0.0
 
 This is a boilerplate for emails including templates, snippets of code, images, a css framework, and an environment for email development that allows a developer to:
 
@@ -27,7 +27,6 @@ This is a boilerplate for emails including templates, snippets of code, images, 
 			- `_r-grid.scss` This file container responsive styles pertaining the the grid
 		- **partials**
 			- `_super-header.scss` the styles for the pretext and view in web link
-			- `_header.scss` styles for the header with the logo and security zone
 			- `_footer.scss` styles for the footer
 		- **grid**
 			- `_grid-pm.scss` The grid based off the page margin variable
@@ -39,8 +38,7 @@ This is a boilerplate for emails including templates, snippets of code, images, 
 			- `_body.scss` Background color and a few other standards for the body of the email.
 - **dev** All work on the email html is done in this folder
 	- **text-versions** This is where you put all text versions of the email
-	- `_MemberTemplate.html` This is the template with the Security Zone
-	- `_NonMemberTemplate.html` No security zone here
+	- `_boilerplate.html` This is the most basic boilerplate
 	- **images** folder containing images
 	- **snippets** folder filled with html files containing various snippets of code
 	- **css** folder containing the css to be inlined
@@ -54,7 +52,7 @@ This is a boilerplate for emails including templates, snippets of code, images, 
 
 # STEPS
 
-1. Fork this repository. Be sure to fork it under USAA EMAILS, use the correct filename of the email, and make sure "Enable fork syncing" is not checked.
+1. Fork this repository. Be sure to fork it under EMAILS, use the correct filename of the email, and make sure "Enable fork syncing" is not checked.
 2. Use "git clone <repository_url>" to clone your new repository.
 3. Make sure you change the name, date, and subject (optional) in the package.json file. This is super important because this is what determines what your zip file will be called, where the images will be deployed on Rackspace, and where on the email-testing server your email will be deployed.
 4. Run npm install
