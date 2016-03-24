@@ -82,6 +82,6 @@ This is a boilerplate for emails including templates, snippets of code, images, 
  - prepLitmus: replaces the source of the images with images sources from rackspace.
  - cloudfiles: loads up the files to rackspace.
  
- **gulp send** use --emailaddress@url.tld as the option (or create an alias in the gulpfile to send it to multiple email addresses).
+**gulp send** use --emailaddress@url.tld as the option (or create an alias in the gulpfile to send it to multiple email addresses).
  
- **gulp deploy** deploys everything to the FTP folder. If you have credentials, please add them in the gulp file.
+**gulp deploy** deploys everything to the FTP folder. If you have credentials, please add them in the gulp file.
