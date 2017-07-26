@@ -51,7 +51,7 @@ function doSass (cb) {
 	    soureMap: 'scss',
 	    sourceComments: 'map'
     }).on('error', sass.logError))
-    .pipe(cmq())
+    // .pipe(cmq())
     .pipe(autoprefixer())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('dev/css/'))
